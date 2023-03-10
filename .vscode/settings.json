@@ -1,0 +1,17 @@
+{
+  "css.validate": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "eslint.enable": true,
+  "files.exclude": {
+    ".vscode/": true,
+    "dist/": true,
+    "node_modules/": true
+  },
+  "less.validate": false,
+  "scss.validate": false,
+  "stylelint.enable": true,
+  "tailwindCSS.emmetCompletions": true
+}

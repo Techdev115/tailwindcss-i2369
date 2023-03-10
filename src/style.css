@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --colors: red, green, blue;
+}
+
+@responsive {
+  @each $color in var(--colors) {
+    .myclass-$(color) {
+      color: $(color);
+    }
+  }
+}
